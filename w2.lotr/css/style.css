@@ -1,3 +1,40 @@
 body {
+  background: #efefef;
   font-family: 'EB Garamond', 'Georgia', serif;
+  font-size: 1.2em;
+  max-width: 50rem;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  border: 0;
+  background: #1975FF;
+  color: #fff;
+  font-size: 1em;
+  padding: 15px;
+  transition: background 0.5s;
+}
+
+button:hover {
+  background: #0047B2;
+  transition: background 0.5s;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin: 3px;
+  margin-bottom: 6px;
+  background: #fff;
 }
