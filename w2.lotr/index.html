@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- // <script language="javascript" src="js/p5.js"></script>   -->
+  <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript" src="js/queue.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+	<!--<script language="javascript" src="../addons/p5.dom.js"></script>-->
+  <!--<script language="javascript" src="../addons/p5.sound.js"></script>-->
+  <script language="javascript" src="js/sketch.js"></script>
+
+  <!-- // <script data-main="js/main" language="javascript" src="js/require.js"></script>  -->
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <link href='http://fonts.googleapis.com/css?family=EB+Garamond&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<h2>Read the story without...</h2>
+  <form id="removeChars">
+    <input type="checkbox" name="character" value="Frodo">Frodo<br>
+    <input type="checkbox" name="character" value="Sauron">Sauron<br>
+    <input type="checkbox" name="character" value="Gandalf">Gandalf<br>
+    <input type="checkbox" name="character" value="Aragorn">Aragorn<br>
+    <input type="checkbox" name="character" value="Saruman">Saruman<br>
+    <input type="checkbox" name="character" value="Legolas">Legolas<br>
+    <input type="checkbox" name="character" value="Isildur">Isildur<br>
+    <input type="checkbox" name="character" value="Arwen">Arwen<br>
+    <input type="checkbox" name="character" value="Elrond">Elrond<br>
+    <input type="checkbox" name="character" value="Bilbo">Bilbo<br>
+    <input type="checkbox" name="character" value="Galadriel">Galadriel<br>
+    <input type="checkbox" name="character" value="Samwise">Samwise<br>
+    <input type="checkbox" name="character" value="Gollum">Gollum/Smeagol<br>
+    <input type="checkbox" name="character" value="Gimli">Gimli<br>
+    <input type="checkbox" name="character" value="Pippin">Pippin<br>
+    <input type="checkbox" name="character" value="Mouth of Sauron">Mouth of Sauron<br>
+  </form>
+
+  <button onclick="generate()"> Generate Story </button>
+  <p class="out"></p>
+</body>
+</html>

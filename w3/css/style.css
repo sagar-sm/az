@@ -1,0 +1,12 @@
+body {
+  font-family: 'EB Garamond', 'Georgia', serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+#answer {
+  font-size: 2.5em;
+}

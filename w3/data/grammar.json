@@ -1,0 +1,8 @@
+{
+  "S": "NP VP",
+  "S": "Interj NP VP",
+  "NP": "N",
+  "VP": "Rel NP",
+  "Interj": "Behold! Its | Wow! Its | Damn! Its ",
+  "Rel": "son of | daughter of | father of | mother of | wife of | husband of "
+}
